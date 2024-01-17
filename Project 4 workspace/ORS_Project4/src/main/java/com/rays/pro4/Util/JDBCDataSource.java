@@ -19,7 +19,7 @@ public class JDBCDataSource {
 	 /**
      * JDBC Database connection pool ( DCP )
      */
-    private static JDBCDataSource datasource;
+    private class JDBCDataSource datasource;
 
     private JDBCDataSource() {
     }
